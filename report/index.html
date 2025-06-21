@@ -25,7 +25,7 @@
     <main>
         <section class="step">
             <h2>1. Создание топологии сети</h2>
-            <img src="images/topology.png" alt="Схема сети">
+            <img src="images/topology.jpg" alt="Схема сети">
             <div class="explanation">
                 <p>Собрана базовая сеть из:</p>
                 <ul>
@@ -44,11 +44,11 @@
             <div class="grid">
                 <div class="screenshot">
                     <img src="images/router-ip.png" alt="Настройка IP на роутере">
-                    <p>Роутер: 192.168.15.1</p>
+                    <p>Роутер: 192.168.19.1</p>
                 </div>
                 <div class="screenshot">
                     <img src="images/pc0-ip.png" alt="Настройка IP на PC0">
-                    <p>PC0: 192.168.15.2</p>
+                    <p>PC0: 192.168.19.2</p>
                 </div>
             </div>
             <div class="explanation">
@@ -59,7 +59,7 @@ Router> enable
 Router# configure terminal
 Router(config)# hostname Sedov
 Sedov(config)# interface GigabitEthernet0/0
-Sedov(config-if)# ip address 192.168.15.1 255.255.255.0
+Sedov(config-if)# ip address 192.168.19.1 255.255.255.0
 Sedov(config-if)# no shutdown</pre>
             </div>
         </section>
@@ -106,7 +106,7 @@ Sedov(config-if)# no shutdown</pre>
     <footer>
         <p>Ссылка на репозиторий: <a href="https://github.com/Cryt9wca/KT">github.com/Sedov/KT</a></p>
         <p>Файлы проекта: 
-            <a href="../files/KT_IU4_Ivanov.pkt">Топология</a> | 
+            <a href="../files/KT_Sedov.pkt">Топология</a> | 
             <a href="../files/router_config.txt">Конфиг роутера</a>
         </p>
     </footer>
