@@ -15,4 +15,4 @@
 
 ## Ссылки
 - [Веб-отчёт](report/index.html)
-- [Топология сети](files/KT_Sedov.pkt)
+- [Топология сети](files/КТ_1ЭИТ_SedovVI.pkt)
