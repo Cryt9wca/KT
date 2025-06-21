@@ -21,5 +21,5 @@
 
 ## Открытие проекта
 1. В Packet Tracer: File → Open
-2. Выберите файл `files/KT_IU4_Ivanov.pkt`
+2. Выберите файл `files/KT.pkt`
 3. Для запуска симуляции нажмите ▶️ (Realtime)
